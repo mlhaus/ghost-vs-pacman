@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Circle Example</title>
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <h1>Ghost and Pacman</h1>
+
+  <a href="#" class="btn btn-main-green run_code spinner ">
+      <i class="icon-play icon-white"></i>
+      <span class="run-button-text">Run!</span>
+  </a>
+
+  <canvas width="400" height="500" class="codehs-editor-canvas"></canvas>
+
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/code-hs.js"></script>
+  <script type="text/javascript" src="js/pacman.js"></script>
+  <script type="text/javascript" src="js/ghost.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript">
+    $('.run_code').click(function() {
+      start();
+    });
+  </script>
+
+</body>
+</html>

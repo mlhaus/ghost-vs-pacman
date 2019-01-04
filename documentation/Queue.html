@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<!-- saved from url=(0099)https://static.codehs.com/gulp/7fd8292d8fb7b0d85b898112cacf642f2d1abbd5/jsdoc/chs-js-lib/Queue.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Queue - Documentation</title>
+
+    <script src="./Queue_files/prettify.js"></script>
+    <script src="./Queue_files/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="./Queue_files/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="./Queue_files/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="./Queue_files/jsdoc-default.css">
+<link media="screen" type="text/css" rel="stylesheet" href="blob:https://static.codehs.com/6d597a03-1c9d-4db0-ae68-0094283f6b8c"><link media="screen" type="text/css" rel="stylesheet" href="blob:https://static.codehs.com/cb687e94-4d4c-4ebf-a4c5-ecf9670913a7"><link media="screen" type="text/css" rel="stylesheet" href="blob:https://static.codehs.com/1a929bad-e63b-4d24-9149-52ac9623963c"></head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger">
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Arc.html">Arc</a><ul class="methods"><li data-type="method"><a href="Arc.html#.degreesToRadians">degreesToRadians</a></li><li data-type="method"><a href="Arc.html#.prepareAngle">prepareAngle</a></li><li data-type="method"><a href="Arc.html#.radiansToDegrees">radiansToDegrees</a></li><li data-type="method"><a href="Arc.html#containsPoint">containsPoint</a></li><li data-type="method"><a href="Arc.html#draw">draw</a></li><li data-type="method"><a href="Arc.html#getBorderColor">getBorderColor</a></li><li data-type="method"><a href="Arc.html#getBorderWidth">getBorderWidth</a></li><li data-type="method"><a href="Arc.html#getColor">getColor</a></li><li data-type="method"><a href="Arc.html#getType">getType</a></li><li data-type="method"><a href="Arc.html#getX">getX</a></li><li data-type="method"><a href="Arc.html#getY">getY</a></li><li data-type="method"><a href="Arc.html#hasBorder">hasBorder</a></li><li data-type="method"><a href="Arc.html#isFilled">isFilled</a></li><li data-type="method"><a href="Arc.html#move">move</a></li><li data-type="method"><a href="Arc.html#rotate">rotate</a></li><li data-type="method"><a href="Arc.html#setBorder">setBorder</a></li><li data-type="method"><a href="Arc.html#setBorderColor">setBorderColor</a></li><li data-type="method"><a href="Arc.html#setBorderWidth">setBorderWidth</a></li><li data-type="method"><a href="Arc.html#setColor">setColor</a></li><li data-type="method"><a href="Arc.html#setFilled">setFilled</a></li><li data-type="method"><a href="Arc.html#setPosition">setPosition</a></li><li data-type="method"><a href="Arc.html#setRotation">setRotation</a></li><li data-type="method"><a href="Arc.html#setType">setType</a></li></ul></li><li><a href="Circle.html">Circle</a><ul class="methods"><li data-type="method"><a href="Circle.html#containsPoint">containsPoint</a></li><li data-type="method"><a href="Circle.html#draw">draw</a></li><li data-type="method"><a href="Circle.html#getBorderColor">getBorderColor</a></li><li data-type="method"><a href="Circle.html#getBorderWidth">getBorderWidth</a></li><li data-type="method"><a href="Circle.html#getColor">getColor</a></li><li data-type="method"><a href="Circle.html#getHeight">getHeight</a></li><li data-type="method"><a href="Circle.html#getRadius">getRadius</a></li><li data-type="method"><a href="Circle.html#getType">getType</a></li><li data-type="method"><a href="Circle.html#getWidth">getWidth</a></li><li data-type="method"><a href="Circle.html#getX">getX</a></li><li data-type="method"><a href="Circle.html#getY">getY</a></li><li data-type="method"><a href="Circle.html#hasBorder">hasBorder</a></li><li data-type="method"><a href="Circle.html#isFilled">isFilled</a></li><li data-type="method"><a href="Circle.html#move">move</a></li><li data-type="method"><a href="Circle.html#rotate">rotate</a></li><li data-type="method"><a href="Circle.html#setBorder">setBorder</a></li><li data-type="method"><a href="Circle.html#setBorderColor">setBorderColor</a></li><li data-type="method"><a href="Circle.html#setBorderWidth">setBorderWidth</a></li><li data-type="method"><a href="Circle.html#setColor">setColor</a></li><li data-type="method"><a href="Circle.html#setFilled">setFilled</a></li><li data-type="method"><a href="Circle.html#setPosition">setPosition</a></li><li data-type="method"><a href="Circle.html#setRadius">setRadius</a></li><li data-type="method"><a href="Circle.html#setRotation">setRotation</a></li><li data-type="method"><a href="Circle.html#setType">setType</a></li></ul></li><li><a href="CodeHSConsole.html">CodeHSConsole</a><ul class="methods"><li data-type="method"><a href="CodeHSConsole.html#.clear">clear</a></li><li data-type="method"><a href="CodeHSConsole.html#.exists">exists</a></li><li data-type="method"><a href="CodeHSConsole.html#.getNamespaceModifcationString">getNamespaceModifcationString</a></li><li data-type="method"><a href="CodeHSConsole.html#.getOutput">getOutput</a></li><li data-type="method"><a href="CodeHSConsole.html#.getStubString">getStubString</a></li><li data-type="method"><a href="CodeHSConsole.html#.registerPublicMethod">registerPublicMethod</a></li><li data-type="method"><a href="CodeHSConsole.html#.setSolution">setSolution</a></li><li data-type="method"><a href="CodeHSConsole.html#checkOutput">checkOutput</a></li><li data-type="method"><a href="CodeHSConsole.html#hasUserinput">hasUserinput</a></li><li data-type="method"><a href="CodeHSConsole.html#print">print</a></li><li data-type="method"><a href="CodeHSConsole.html#println">println</a></li><li data-type="method"><a href="CodeHSConsole.html#readBoolean">readBoolean</a></li><li data-type="method"><a href="CodeHSConsole.html#readLine">readLine</a></li><li data-type="method"><a href="CodeHSConsole.html#readLinePrivate">readLinePrivate</a></li><li data-type="method"><a href="CodeHSConsole.html#runCode">runCode</a></li></ul></li><li><a href="CodeHSGraphics.html">CodeHSGraphics</a><ul class="methods"><li data-type="method"><a href="CodeHSGraphics.html#.getConstructorModificationString">getConstructorModificationString</a></li><li data-type="method"><a href="CodeHSGraphics.html#.getNamespaceModifcationString">getNamespaceModifcationString</a></li><li data-type="method"><a href="CodeHSGraphics.html#.registerConstructorMethod">registerConstructorMethod</a></li><li data-type="method"><a href="CodeHSGraphics.html#.registerPublicMethod">registerPublicMethod</a></li><li data-type="method"><a href="CodeHSGraphics.html#add">add</a></li><li data-type="method"><a href="CodeHSGraphics.html#audioChangeMethod">audioChangeMethod</a></li><li data-type="method"><a href="CodeHSGraphics.html#canvasExists">canvasExists</a></li><li data-type="method"><a href="CodeHSGraphics.html#canvasHasInstance">canvasHasInstance</a></li><li data-type="method"><a href="CodeHSGraphics.html#clear">clear</a></li><li data-type="method"><a href="CodeHSGraphics.html#drawBackground">drawBackground</a></li><li data-type="method"><a href="CodeHSGraphics.html#elementExistsWithParameters">elementExistsWithParameters</a></li><li data-type="method"><a href="CodeHSGraphics.html#fullReset">fullReset</a></li><li data-type="method"><a href="CodeHSGraphics.html#getCanvas">getCanvas</a></li><li data-type="method"><a href="CodeHSGraphics.html#getContext">getContext</a></li><li data-type="method"><a href="CodeHSGraphics.html#getDistance">getDistance</a></li><li data-type="method"><a href="CodeHSGraphics.html#getElementAt">getElementAt</a></li><li data-type="method"><a href="CodeHSGraphics.html#getHeight">getHeight</a></li><li data-type="method"><a href="CodeHSGraphics.html#getWidth">getWidth</a></li><li data-type="method"><a href="CodeHSGraphics.html#isKeyPressed">isKeyPressed</a></li><li data-type="method"><a href="CodeHSGraphics.html#keyDownMethod">keyDownMethod</a></li><li data-type="method"><a href="CodeHSGraphics.html#keyUpMethod">keyUpMethod</a></li><li data-type="method"><a href="CodeHSGraphics.html#mouseClickMethod">mouseClickMethod</a></li><li data-type="method"><a href="CodeHSGraphics.html#mouseDownMethod">mouseDownMethod</a></li><li data-type="method"><a href="CodeHSGraphics.html#mouseDragMethod">mouseDragMethod</a></li><li data-type="method"><a href="CodeHSGraphics.html#mouseMoveMethod">mouseMoveMethod</a></li><li data-type="method"><a href="CodeHSGraphics.html#mouseUpMethod">mouseUpMethod</a></li><li data-type="method"><a href="CodeHSGraphics.html#redraw">redraw</a></li><li data-type="method"><a href="CodeHSGraphics.html#remove">remove</a></li><li data-type="method"><a href="CodeHSGraphics.html#removeAll">removeAll</a></li><li data-type="method"><a href="CodeHSGraphics.html#resetAllState">resetAllState</a></li><li data-type="method"><a href="CodeHSGraphics.html#resetAllTimers">resetAllTimers</a></li><li data-type="method"><a href="CodeHSGraphics.html#runCode">runCode</a></li><li data-type="method"><a href="CodeHSGraphics.html#setBackgroundColor">setBackgroundColor</a></li><li data-type="method"><a href="CodeHSGraphics.html#setCurrentCanvas">setCurrentCanvas</a></li><li data-type="method"><a href="CodeHSGraphics.html#setGraphicsTimer">setGraphicsTimer</a></li><li data-type="method"><a href="CodeHSGraphics.html#setMainTimer">setMainTimer</a></li><li data-type="method"><a href="CodeHSGraphics.html#setSize">setSize</a></li><li data-type="method"><a href="CodeHSGraphics.html#setTimer">setTimer</a></li><li data-type="method"><a href="CodeHSGraphics.html#setup">setup</a></li><li data-type="method"><a href="CodeHSGraphics.html#stopAllTimers">stopAllTimers</a></li><li data-type="method"><a href="CodeHSGraphics.html#stopGlobalTimer">stopGlobalTimer</a></li><li data-type="method"><a href="CodeHSGraphics.html#stopTimer">stopTimer</a></li><li data-type="method"><a href="CodeHSGraphics.html#updateAudio">updateAudio</a></li><li data-type="method"><a href="CodeHSGraphics.html#waitForClick">waitForClick</a></li><li data-type="method"><a href="CodeHSGraphics.html#waitingForClick">waitingForClick</a></li></ul></li><li><a href="Color.html">Color</a><ul class="methods"><li data-type="method"><a href="Color.html#.average">average</a></li><li data-type="method"><a href="Color.html#.createFromRGB">createFromRGB</a></li><li data-type="method"><a href="Color.html#.createFromRGBL">createFromRGBL</a></li><li data-type="method"><a href="Color.html#.hslToRgb">hslToRgb</a></li><li data-type="method"><a href="Color.html#.hue2rgb">hue2rgb</a></li><li data-type="method"><a href="Color.html#.randomBlue">randomBlue</a></li><li data-type="method"><a href="Color.html#.randomGreen">randomGreen</a></li><li data-type="method"><a href="Color.html#.randomRed">randomRed</a></li><li data-type="method"><a href="Color.html#.rgbToHex">rgbToHex</a></li><li data-type="method"><a href="Color.html#.rgbToHsl">rgbToHsl</a></li><li data-type="method"><a href="Color.html#toString">toString</a></li></ul></li><li><a href="Grid.html">Grid</a><ul class="methods"><li data-type="method"><a href="Grid.html#get">get</a></li><li data-type="method"><a href="Grid.html#inBounds">inBounds</a></li><li data-type="method"><a href="Grid.html#init">init</a></li><li data-type="method"><a href="Grid.html#initFromArray">initFromArray</a></li><li data-type="method"><a href="Grid.html#numCols">numCols</a></li><li data-type="method"><a href="Grid.html#numRows">numRows</a></li><li data-type="method"><a href="Grid.html#set">set</a></li><li data-type="method"><a href="Grid.html#toList">toList</a></li><li data-type="method"><a href="Grid.html#toString">toString</a></li></ul></li><li><a href="Line.html">Line</a><ul class="methods"><li data-type="method"><a href="Line.html#containsPoint">containsPoint</a></li><li data-type="method"><a href="Line.html#draw">draw</a></li><li data-type="method"><a href="Line.html#getBorderColor">getBorderColor</a></li><li data-type="method"><a href="Line.html#getBorderWidth">getBorderWidth</a></li><li data-type="method"><a href="Line.html#getColor">getColor</a></li><li data-type="method"><a href="Line.html#getEndX">getEndX</a></li><li data-type="method"><a href="Line.html#getEndY">getEndY</a></li><li data-type="method"><a href="Line.html#getHeight">getHeight</a></li><li data-type="method"><a href="Line.html#getStartX">getStartX</a></li><li data-type="method"><a href="Line.html#getStartY">getStartY</a></li><li data-type="method"><a href="Line.html#getType">getType</a></li><li data-type="method"><a href="Line.html#getWidth">getWidth</a></li><li data-type="method"><a href="Line.html#getX">getX</a></li><li data-type="method"><a href="Line.html#getY">getY</a></li><li data-type="method"><a href="Line.html#hasBorder">hasBorder</a></li><li data-type="method"><a href="Line.html#isFilled">isFilled</a></li><li data-type="method"><a href="Line.html#move">move</a></li><li data-type="method"><a href="Line.html#rotate">rotate</a></li><li data-type="method"><a href="Line.html#setBorder">setBorder</a></li><li data-type="method"><a href="Line.html#setBorderColor">setBorderColor</a></li><li data-type="method"><a href="Line.html#setBorderWidth">setBorderWidth</a></li><li data-type="method"><a href="Line.html#setColor">setColor</a></li><li data-type="method"><a href="Line.html#setEndpoint">setEndpoint</a></li><li data-type="method"><a href="Line.html#setFilled">setFilled</a></li><li data-type="method"><a href="Line.html#setLineWidth">setLineWidth</a></li><li data-type="method"><a href="Line.html#setPosition">setPosition</a></li><li data-type="method"><a href="Line.html#setRotation">setRotation</a></li><li data-type="method"><a href="Line.html#setStartpoint">setStartpoint</a></li><li data-type="method"><a href="Line.html#setType">setType</a></li></ul></li><li><a href="Oval.html">Oval</a><ul class="methods"><li data-type="method"><a href="Oval.html#containsPoint">containsPoint</a></li><li data-type="method"><a href="Oval.html#draw">draw</a></li><li data-type="method"><a href="Oval.html#getBorderColor">getBorderColor</a></li><li data-type="method"><a href="Oval.html#getBorderWidth">getBorderWidth</a></li><li data-type="method"><a href="Oval.html#getColor">getColor</a></li><li data-type="method"><a href="Oval.html#getHeight">getHeight</a></li><li data-type="method"><a href="Oval.html#getType">getType</a></li><li data-type="method"><a href="Oval.html#getWidth">getWidth</a></li><li data-type="method"><a href="Oval.html#getX">getX</a></li><li data-type="method"><a href="Oval.html#getY">getY</a></li><li data-type="method"><a href="Oval.html#hasBorder">hasBorder</a></li><li data-type="method"><a href="Oval.html#isFilled">isFilled</a></li><li data-type="method"><a href="Oval.html#move">move</a></li><li data-type="method"><a href="Oval.html#rotate">rotate</a></li><li data-type="method"><a href="Oval.html#setBorder">setBorder</a></li><li data-type="method"><a href="Oval.html#setBorderColor">setBorderColor</a></li><li data-type="method"><a href="Oval.html#setBorderWidth">setBorderWidth</a></li><li data-type="method"><a href="Oval.html#setColor">setColor</a></li><li data-type="method"><a href="Oval.html#setFilled">setFilled</a></li><li data-type="method"><a href="Oval.html#setHeight">setHeight</a></li><li data-type="method"><a href="Oval.html#setPosition">setPosition</a></li><li data-type="method"><a href="Oval.html#setRotation">setRotation</a></li><li data-type="method"><a href="Oval.html#setType">setType</a></li><li data-type="method"><a href="Oval.html#setWidth">setWidth</a></li></ul></li><li><a href="Polygon.html">Polygon</a><ul class="methods"><li data-type="method"><a href="Polygon.html#addPoint">addPoint</a></li><li data-type="method"><a href="Polygon.html#containsPoint">containsPoint</a></li><li data-type="method"><a href="Polygon.html#draw">draw</a></li><li data-type="method"><a href="Polygon.html#getBorderColor">getBorderColor</a></li><li data-type="method"><a href="Polygon.html#getBorderWidth">getBorderWidth</a></li><li data-type="method"><a href="Polygon.html#getColor">getColor</a></li><li data-type="method"><a href="Polygon.html#getHeight">getHeight</a></li><li data-type="method"><a href="Polygon.html#getType">getType</a></li><li data-type="method"><a href="Polygon.html#getWidth">getWidth</a></li><li data-type="method"><a href="Polygon.html#getX">getX</a></li><li data-type="method"><a href="Polygon.html#getY">getY</a></li><li data-type="method"><a href="Polygon.html#hasBorder">hasBorder</a></li><li data-type="method"><a href="Polygon.html#isFilled">isFilled</a></li><li data-type="method"><a href="Polygon.html#move">move</a></li><li data-type="method"><a href="Polygon.html#rotate">rotate</a></li><li data-type="method"><a href="Polygon.html#setBorder">setBorder</a></li><li data-type="method"><a href="Polygon.html#setBorderColor">setBorderColor</a></li><li data-type="method"><a href="Polygon.html#setBorderWidth">setBorderWidth</a></li><li data-type="method"><a href="Polygon.html#setColor">setColor</a></li><li data-type="method"><a href="Polygon.html#setFilled">setFilled</a></li><li data-type="method"><a href="Polygon.html#setPosition">setPosition</a></li><li data-type="method"><a href="Polygon.html#setRotation">setRotation</a></li><li data-type="method"><a href="Polygon.html#setType">setType</a></li></ul></li><li><a href="Queue.html">Queue</a><ul class="methods"><li data-type="method"><a href="Queue.html#clear">clear</a></li><li data-type="method"><a href="Queue.html#dequeue">dequeue</a></li><li data-type="method"><a href="Queue.html#enqueue">enqueue</a></li><li data-type="method"><a href="Queue.html#hasNext">hasNext</a></li><li data-type="method"><a href="Queue.html#isEmpty">isEmpty</a></li><li data-type="method"><a href="Queue.html#peek">peek</a></li><li data-type="method"><a href="Queue.html#size">size</a></li></ul></li><li><a href="Rectangle.html">Rectangle</a><ul class="methods"><li data-type="method"><a href="Rectangle.html#containsPoint">containsPoint</a></li><li data-type="method"><a href="Rectangle.html#draw">draw</a></li><li data-type="method"><a href="Rectangle.html#getBorderColor">getBorderColor</a></li><li data-type="method"><a href="Rectangle.html#getBorderWidth">getBorderWidth</a></li><li data-type="method"><a href="Rectangle.html#getColor">getColor</a></li><li data-type="method"><a href="Rectangle.html#getHeight">getHeight</a></li><li data-type="method"><a href="Rectangle.html#getType">getType</a></li><li data-type="method"><a href="Rectangle.html#getWidth">getWidth</a></li><li data-type="method"><a href="Rectangle.html#getX">getX</a></li><li data-type="method"><a href="Rectangle.html#getY">getY</a></li><li data-type="method"><a href="Rectangle.html#hasBorder">hasBorder</a></li><li data-type="method"><a href="Rectangle.html#isFilled">isFilled</a></li><li data-type="method"><a href="Rectangle.html#move">move</a></li><li data-type="method"><a href="Rectangle.html#rotate">rotate</a></li><li data-type="method"><a href="Rectangle.html#setBorder">setBorder</a></li><li data-type="method"><a href="Rectangle.html#setBorderColor">setBorderColor</a></li><li data-type="method"><a href="Rectangle.html#setBorderWidth">setBorderWidth</a></li><li data-type="method"><a href="Rectangle.html#setColor">setColor</a></li><li data-type="method"><a href="Rectangle.html#setFilled">setFilled</a></li><li data-type="method"><a href="Rectangle.html#setPosition">setPosition</a></li><li data-type="method"><a href="Rectangle.html#setRotation">setRotation</a></li><li data-type="method"><a href="Rectangle.html#setType">setType</a></li></ul></li><li><a href="Set.html">Set</a><ul class="methods"><li data-type="method"><a href="Set.html#add">add</a></li><li data-type="method"><a href="Set.html#clear">clear</a></li><li data-type="method"><a href="Set.html#contains">contains</a></li><li data-type="method"><a href="Set.html#containsKey">containsKey</a></li><li data-type="method"><a href="Set.html#elems">elems</a></li><li data-type="method"><a href="Set.html#find">find</a></li><li data-type="method"><a href="Set.html#getKey">getKey</a></li><li data-type="method"><a href="Set.html#intersect">intersect</a></li><li data-type="method"><a href="Set.html#isEmpty">isEmpty</a></li><li data-type="method"><a href="Set.html#remove">remove</a></li><li data-type="method"><a href="Set.html#size">size</a></li><li data-type="method"><a href="Set.html#toString">toString</a></li><li data-type="method"><a href="Set.html#union">union</a></li></ul></li><li><a href="Stack.html">Stack</a><ul class="methods"><li data-type="method"><a href="Stack.html#clear">clear</a></li><li data-type="method"><a href="Stack.html#hasNext">hasNext</a></li><li data-type="method"><a href="Stack.html#isEmpty">isEmpty</a></li><li data-type="method"><a href="Stack.html#peek">peek</a></li><li data-type="method"><a href="Stack.html#pop">pop</a></li><li data-type="method"><a href="Stack.html#push">push</a></li><li data-type="method"><a href="Stack.html#size">size</a></li></ul></li><li><a href="Text.html">Text</a><ul class="methods"><li data-type="method"><a href="Text.html#.giveDefaultContext">giveDefaultContext</a></li><li data-type="method"><a href="Text.html#containsPoint">containsPoint</a></li><li data-type="method"><a href="Text.html#draw">draw</a></li><li data-type="method"><a href="Text.html#getBorderColor">getBorderColor</a></li><li data-type="method"><a href="Text.html#getBorderWidth">getBorderWidth</a></li><li data-type="method"><a href="Text.html#getColor">getColor</a></li><li data-type="method"><a href="Text.html#getHeight">getHeight</a></li><li data-type="method"><a href="Text.html#getLabel">getLabel</a></li><li data-type="method"><a href="Text.html#getText">getText</a></li><li data-type="method"><a href="Text.html#getType">getType</a></li><li data-type="method"><a href="Text.html#getWidth">getWidth</a></li><li data-type="method"><a href="Text.html#getX">getX</a></li><li data-type="method"><a href="Text.html#getY">getY</a></li><li data-type="method"><a href="Text.html#hasBorder">hasBorder</a></li><li data-type="method"><a href="Text.html#isFilled">isFilled</a></li><li data-type="method"><a href="Text.html#move">move</a></li><li data-type="method"><a href="Text.html#resetDimensions">resetDimensions</a></li><li data-type="method"><a href="Text.html#rotate">rotate</a></li><li data-type="method"><a href="Text.html#setBorder">setBorder</a></li><li data-type="method"><a href="Text.html#setBorderColor">setBorderColor</a></li><li data-type="method"><a href="Text.html#setBorderWidth">setBorderWidth</a></li><li data-type="method"><a href="Text.html#setColor">setColor</a></li><li data-type="method"><a href="Text.html#setFilled">setFilled</a></li><li data-type="method"><a href="Text.html#setFont">setFont</a></li><li data-type="method"><a href="Text.html#setLabel">setLabel</a></li><li data-type="method"><a href="Text.html#setPosition">setPosition</a></li><li data-type="method"><a href="Text.html#setRotation">setRotation</a></li><li data-type="method"><a href="Text.html#setText">setText</a></li><li data-type="method"><a href="Text.html#setType">setType</a></li></ul></li><li><a href="Thing.html">Thing</a><ul class="methods"><li data-type="method"><a href="Thing.html#containsPoint">containsPoint</a></li><li data-type="method"><a href="Thing.html#draw">draw</a></li><li data-type="method"><a href="Thing.html#getBorderColor">getBorderColor</a></li><li data-type="method"><a href="Thing.html#getBorderWidth">getBorderWidth</a></li><li data-type="method"><a href="Thing.html#getColor">getColor</a></li><li data-type="method"><a href="Thing.html#getType">getType</a></li><li data-type="method"><a href="Thing.html#getX">getX</a></li><li data-type="method"><a href="Thing.html#getY">getY</a></li><li data-type="method"><a href="Thing.html#hasBorder">hasBorder</a></li><li data-type="method"><a href="Thing.html#isFilled">isFilled</a></li><li data-type="method"><a href="Thing.html#move">move</a></li><li data-type="method"><a href="Thing.html#rotate">rotate</a></li><li data-type="method"><a href="Thing.html#setBorder">setBorder</a></li><li data-type="method"><a href="Thing.html#setBorderColor">setBorderColor</a></li><li data-type="method"><a href="Thing.html#setBorderWidth">setBorderWidth</a></li><li data-type="method"><a href="Thing.html#setColor">setColor</a></li><li data-type="method"><a href="Thing.html#setFilled">setFilled</a></li><li data-type="method"><a href="Thing.html#setPosition">setPosition</a></li><li data-type="method"><a href="Thing.html#setRotation">setRotation</a></li><li data-type="method"><a href="Thing.html#setType">setType</a></li></ul></li><li><a href="WebImage.html">WebImage</a><ul class="methods"><li data-type="method"><a href="WebImage.html#checkDimensions">checkDimensions</a></li><li data-type="method"><a href="WebImage.html#containsPoint">containsPoint</a></li><li data-type="method"><a href="WebImage.html#draw">draw</a></li><li data-type="method"><a href="WebImage.html#getAlpha">getAlpha</a></li><li data-type="method"><a href="WebImage.html#getBlue">getBlue</a></li><li data-type="method"><a href="WebImage.html#getBorderColor">getBorderColor</a></li><li data-type="method"><a href="WebImage.html#getBorderWidth">getBorderWidth</a></li><li data-type="method"><a href="WebImage.html#getColor">getColor</a></li><li data-type="method"><a href="WebImage.html#getData">getData</a></li><li data-type="method"><a href="WebImage.html#getGreen">getGreen</a></li><li data-type="method"><a href="WebImage.html#getHeight">getHeight</a></li><li data-type="method"><a href="WebImage.html#getPixel">getPixel</a></li><li data-type="method"><a href="WebImage.html#getRed">getRed</a></li><li data-type="method"><a href="WebImage.html#getType">getType</a></li><li data-type="method"><a href="WebImage.html#getWidth">getWidth</a></li><li data-type="method"><a href="WebImage.html#getX">getX</a></li><li data-type="method"><a href="WebImage.html#getY">getY</a></li><li data-type="method"><a href="WebImage.html#hasBorder">hasBorder</a></li><li data-type="method"><a href="WebImage.html#isFilled">isFilled</a></li><li data-type="method"><a href="WebImage.html#loaded">loaded</a></li><li data-type="method"><a href="WebImage.html#move">move</a></li><li data-type="method"><a href="WebImage.html#rotate">rotate</a></li><li data-type="method"><a href="WebImage.html#setAlpha">setAlpha</a></li><li data-type="method"><a href="WebImage.html#setBlue">setBlue</a></li><li data-type="method"><a href="WebImage.html#setBorder">setBorder</a></li><li data-type="method"><a href="WebImage.html#setBorderColor">setBorderColor</a></li><li data-type="method"><a href="WebImage.html#setBorderWidth">setBorderWidth</a></li><li data-type="method"><a href="WebImage.html#setColor">setColor</a></li><li data-type="method"><a href="WebImage.html#setFilled">setFilled</a></li><li data-type="method"><a href="WebImage.html#setGreen">setGreen</a></li><li data-type="method"><a href="WebImage.html#setImage">setImage</a></li><li data-type="method"><a href="WebImage.html#setPixel">setPixel</a></li><li data-type="method"><a href="WebImage.html#setPosition">setPosition</a></li><li data-type="method"><a href="WebImage.html#setRed">setRed</a></li><li data-type="method"><a href="WebImage.html#setRotation">setRotation</a></li><li data-type="method"><a href="WebImage.html#setSize">setSize</a></li><li data-type="method"><a href="WebImage.html#setType">setType</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-Randomizer.html">Randomizer</a><ul class="methods"><li data-type="method"><a href="module-Randomizer.html#~nextBoolean">nextBoolean</a></li><li data-type="method"><a href="module-Randomizer.html#~nextColor">nextColor</a></li><li data-type="method"><a href="module-Randomizer.html#~nextFloat">nextFloat</a></li><li data-type="method"><a href="module-Randomizer.html#~nextHex">nextHex</a></li><li data-type="method"><a href="module-Randomizer.html#~nextInt">nextInt</a></li></ul></li></ul><h3>Global</h3><ul><li><a href="global.html#getDistance">getDistance</a></li><li><a href="global.html#getRotatedPoints">getRotatedPoints</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Queue</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        Queue
+        </h2>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+
+    
+
+    <h4 class="name" id="Queue"><span class="type-signature"></span>new Queue<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Create a FIFO queue data structure.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="datastructures_queue.js.html">datastructures/queue.js</a>, <a href="datastructures_queue.js.html#line7">line 7</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    </div>
+
+    
+
+    
+
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id="clear"><span class="type-signature"></span>clear<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Clear the contents of the queue.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="datastructures_queue.js.html">datastructures/queue.js</a>, <a href="datastructures_queue.js.html#line22">line 22</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="dequeue"><span class="type-signature"></span>dequeue<span class="signature">()</span><span class="type-signature"> → {object}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Get the front element of the queue and removes it from the queue.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="datastructures_queue.js.html">datastructures/queue.js</a>, <a href="datastructures_queue.js.html#line38">line 38</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    Front element from the queue.
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="enqueue"><span class="type-signature"></span>enqueue<span class="signature">(obj)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Push an object in to the queue.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>obj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Any object to be pushed into the queue.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="datastructures_queue.js.html">datastructures/queue.js</a>, <a href="datastructures_queue.js.html#line30">line 30</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="hasNext"><span class="type-signature"></span>hasNext<span class="signature">()</span><span class="type-signature"> → {boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Checks if the queue isn't empty.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="datastructures_queue.js.html">datastructures/queue.js</a>, <a href="datastructures_queue.js.html#line57">line 57</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    Whether or not the queue has another element. True if yes.
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="isEmpty"><span class="type-signature"></span>isEmpty<span class="signature">()</span><span class="type-signature"> → {boolean}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Checks if the queue is empty.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="datastructures_queue.js.html">datastructures/queue.js</a>, <a href="datastructures_queue.js.html#line65">line 65</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    Whether or not the queue is empty. True if yes.
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="peek"><span class="type-signature"></span>peek<span class="signature">()</span><span class="type-signature"> → {object}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Get the front element of the queue without removing it from the queue.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="datastructures_queue.js.html">datastructures/queue.js</a>, <a href="datastructures_queue.js.html#line48">line 48</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    Front element from the queue.
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="size"><span class="type-signature"></span>size<span class="signature">()</span><span class="type-signature"> → {number}</span></h4>
+
+    
+
+
+
+<div class="description">
+    Get the number of objects in the queue.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="datastructures_queue.js.html">datastructures/queue.js</a>, <a href="datastructures_queue.js.html#line15">line 15</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    Number of elements in the queue.
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">number</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.0</a> on Mon Jun 26 2017 09:04:16 GMT-0700 (PDT) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="./Queue_files/linenumber.js"></script>
+
+<div id="2300d542-cdab-48e7-99b6-24a204909f9c" data-gg-chat-anchor="true" style="z-index: 2147483647; position: relative; display: block; height: 0px; min-height: 0px; width: 0px; min-width: 0px; margin: 0px; padding: 0px; border: 0px;"><div data-reactroot=""></div></div></body></html>
